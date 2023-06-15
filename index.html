@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--icono "favicon.icon" pestaña ventana-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/23/23952.png  "
+    />
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c05e8b7cf0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="pagina">
+    <header>
+      <img
+        class="logo"
+        src="images/logoFilomeno1 (2).png"
+        title="Filomenos"
+        onmouseover="ampliarImagen()"
+        onmouseout="restaurarImagen()"
+        onclick="emblema()"
+      />
+      <nav>
+        <ul>
+          <li><a href="index.html">Proyectos</a></li>
+          <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="header-img">
+      <div class="flex-logo">
+        <div class="font-size: 5vw;">Proyectos</div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("abajo", window.scrollY > 0);
+      });
+    </script>
+    <video
+      src="images/23378292_a-girl-hacking-system-cyber-attack_by_abc-video_preview.mp4"
+      autoplay="true"
+      muted="true"
+      loop="true"
+      poster="https://carontestudio.com/img/contacto.jpg"
+    ></video>
+
+    <body class="body_tarjetas">
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img
+              src="https://blog.desdelinux.net/wp-content/uploads/2022/11/clonezilla-live-3-0-2-21-imagen-contenido-blog-desdelinux-1024x576.jpg.webp"
+              title="image"
+            />
+          </figure>
+          <div class="contenido">
+            <h3>Clonación en red</h3>
+            <br />
+            <p>
+              El instituto necesita realizar imágenes de los ordenadores de las
+              aulas y guardarlas en un servidor. También sería necesario poder
+              volcar las imágenes por red sin necesidad de utilizar un pen
+              drive.
+            </p>
+            <a href="proyecto-clonezilla.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img
+              src="https://cdn.vicentferrer.com/wp-content/uploads/lorawan-foto.jpg"
+              title="image1"
+            />
+          </figure>
+          <div class="contenido">
+            <h3>IoT LoRa</h3>
+            <br />
+            <p>
+              Proyecto para comunicación entre dos dispositivos ,TTGO LoRa32
+              SX1276 OLED, envió y recepción de paquetes, con actualización para
+              que envié la temperatura ambiente al dispositivo receptor.
+            </p>
+            <a href="proyecto-lora.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img
+              src="https://linuxiac.b-cdn.net/wp-content/uploads/2022/02/truenas-scale-ui.png"
+              title="image2"
+            />
+          </figure>
+          <div class="contenido">
+            <h3>TrueNAS</h3>
+            <p>
+              Una empresa necesita disponer de servidores para tener disponible
+              toda la información desde cualquier lugar. Además, la información
+              debe estar accesible desde cualquier dispositivo (PC, móvil,
+              tablet...) con diferentes sistemas operativos. Para realizar las
+              copias de seguridad se debe disponer de un sistema RAID en espejo.
+            </p>
+            <a href="proyecto-trueNAS.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img
+              src="https://i.ytimg.com/vi/FMNeQ19gAE8/maxresdefault.jpg"
+              title="image3"
+            />
+          </figure>
+          <div class="contenido">
+            <h3>TV sala conferencias</h3>
+            <br />
+            <p>
+              Una empresa está montando una sala de reuniones en la que desean
+              utilizar un televisor para realizar presentaciones desde
+              ordenadores (Windows, Linux o Mac), tabletas o móviles (Android e
+              iOS). Nos piden que les gustaría lograr esto sin necesidad de usar
+              cables y que cualquier persona en la reunión pueda emitir la
+              pantalla de su dispositivo al televisor de forma sencilla.
+            </p>
+            <a href="proyecto-sala-reuniones.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img src="images/videoWall.jpeg" title="image4" />
+          </figure>
+          <div class="contenido">
+            <h3>VideoWall</h3>
+            <br />
+            <p>
+              Se desea montar un panel publicitario formado por 12 monitores de
+              manera que pueda mostrar una imagen en gran formato.
+            </p>
+            <a href="proyecto-videoWall.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img
+              src="https://www.howtogeek.com/wp-content/uploads/2022/02/raspberry_pi_4_and_logo_hero.jpg?height=200p&trim=2,2,2,2&crop=16:9"
+              title="image5"
+            />
+          </figure>
+          <div class="contenido">
+            <h3>Raspberry Pi</h3>
+            <br />
+            <p>
+              Usar Raspberry Pi como clientes ligeros: En este caso, los
+              dispositivos Raspberry Pi se utilizarían como terminales de
+              visualización que se conectan a un servidor central para mostrar
+              contenido. Los Raspberry Pi actuarían como pantallas remotas para
+              mostrar imágenes, videos o presentaciones.
+            </p>
+            <a href="proyecto-raspberry.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmeY-YEdMR9vqxDvUu2aDM8oaB8_qCFAHabA&usqp=CAU"
+              title="image6"
+            />
+          </figure>
+          <div class="contenido">
+            <h3>Fortificación de la red</h3>
+            <br />
+            <p>
+              Una de las amenazas más visibles para la seguridad en redes LAN es
+              un ataque de malware que pudiese desencadenar la pérdida y hurto
+              de datos e información relevante para la empresa. Sumado a esto,
+              un virus tiene el potencial para ocasionar daños económicos o de
+              reputación a una compañía
+            </p>
+            <a href="proyecto-fortificacion-de-red.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img src="images/cableado.png" title="image4" />
+          </figure>
+          <div class="contenido">
+            <h3>Cableado de red</h3>
+            <br />
+            <p>
+              Vamos a simular una instalación de red sobre un panel de madera.
+              En el panel, realizaremos la distribución y conexión de varios
+              elementos de red, atornillando y cableando los diferentes
+              elementos de la mejor forma posible. En el panel, deberemos
+              distribuir y conectar los siguientes elementos: • Canaleta. •
+              Roseta RJ45. • Punto eléctrico. • Roseta RJ45 de superficie. •
+              Regleta eléctrica.
+            </p>
+            <a href="proyecto-cableado-de-red.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure>
+            <img
+              src="https://ordenadores-y-portatiles.com/wp-content/uploads/2020/09/tecnologia-wimax.jpg"
+              title="image5"
+            />
+          </figure>
+          <div class="contenido">
+            <h3>Radio enlace WIMAX</h3>
+            <br />
+            <p>
+              Una empresa tiene dos delegaciones (naves industriales) las cuales
+              desearía tener comunicadas ya que de esta forma no tendría datos
+              duplicados en los dos servidores que tiene en cada nave
+              industrial. De ésta forma tenemos los datos centralizados y la
+              gestón es más eficiente.
+            </p>
+            <a href="proyecto-videoWall.html">Leer Más</a>
+            <br /><br />
+            <button class="eliminar2">Eliminar</button>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="formularioBase">
+        <form id="formulari" class="crear">
+            <label for="url">URL Imagen</label>
+            <br>
+            <input type="url" name="url"/><br/>
+            <br/>
+            <label for="titulo">Proyecto</label>
+            <br>
+            <input type="text" name="titulo"/><br />
+            <br/>
+            <label for="contenido">Contenido</label>
+            <br>
+            <input type="text" name="contenido"/><br />
+            <br/>
+            <br/>
+            <label for="leermas">Leer más</label>
+            <br>
+            <input type="text" name="leermas"/><br />
+            <br/>
+            <div class="botones-formulario">
+            <input class="boton-crear" type="button" name="boto" value="Crear" onclick="crear()" />
+            <br/>
+            <input class="boton-cargar" type="button" name="boto" value="Cargar" onclick="cargar()" />
+            <br/>
+            <input class="boton-borrar-todos" type="button" name="boto" value="Borrar" onclick="borrarTodos()" />
+            </div>
+            <div class="container-crear">
+            <div id="divarray" class="flex-container-crear"></div>
+            <br/>
+            <input class="boton-borrar-todos" type="button" name="boto" value="Borrar" onclick="borrarTodos()" />
+            </div>
+            <br/>
+            <br/>
+        </form>
+        </div>
+    </div>
+    <br/>
+    <br/>-->
+    </body>
+
+    <script>
+      function ampliarImagen() {
+        var logo = document.querySelector(".logo");
+        logo.classList.add("ampliada");
+      }
+
+      function restaurarImagen() {
+        var logo = document.querySelector(".logo");
+        logo.classList.remove("ampliada");
+      }
+
+      function emblema() {
+        window.location.href = "./emblema.html";
+      }
+
+      function eliminar2() {
+        let divEliminar = document.querySelector(".container");
+        divEliminar.remove();
+        Swal.fire("Noticia borrada!", "", "success");
+      }
+
+      function cargar() {
+        fetch("https://j4bit.glitch.me/noticias")
+          .then((response) => response.json())
+          .then((jugadors) => {
+            console.log(jugadors);
+            let divarray = document.getElementById("divarray");
+            for (let i = 0; i < jugadors.length; i++) {
+              divarray.innerHTML += `
+            <div class="container">
+            <div data-key="${jugadors[i].id}" class="card">
+                <figure>
+                  <img src="${jugadors[i].url}"></img>
+                </figure>
+                <div class="contenido">
+                  <h3 class="pTitulo">${jugadors[i].titulo}</h3>
+                  <br/>
+                  <p class="pContenido">${jugadors[i].contenido}</p>                                  
+                  <a href="${jugadors[i].leermas}">Leer más</a>
+                  <br/>
+                  <br/>
+                  <button class="eliminar" onclick="eliminar(this)">Eliminar</button>
+                </div>
+            </div>
+        </div>
+            `;
+              Swal.fire("Noticias cargadas!", "", "success");
+            }
+          });
+      }
+
+      function crear() {
+        let jugador = {
+          url: formulari.url.value,
+          titulo: formulari.titulo.value,
+          contenido: formulari.contenido.value,
+          leermas: formulari.leermas.value,
+        };
+        fetch("https://j4bit.glitch.me/noticias", {
+          method: "POST",
+          body: JSON.stringify(jugador),
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+        })
+          .then((response) => response.json())
+          .then((json) => {
+            console.log(json);
+            jugador.id = json.id;
+            console.log(jugador.id);
+            divarray.innerHTML += `
+          <div class="container">
+          <div data-key='${jugador.id}' class="card">
+            <figure>
+          <img src="${jugador.url}"></img>
+          </figure>
+          <div class="contenido">
+          <h3 c>${jugador.titulo}</h3>
+          <br/>
+          <p class="pContenido">${jugador.contenido}</p>
+          <a href="${jugador.leermas}">Leer más</a>
+          <br/><br/>
+          <button onclick="eliminar(this)">Eliminar</button>
+          </div>
+        </div>
+        </div>
+      `;
+          });
+        Swal.fire("Crear noticia!", "", "success");
+      }
+
+      function borrarTodos() {
+        divarray.innerHTML = "";
+        Swal.fire("Noticias borradas!", "", "success");
+      }
+
+      function eliminar(carta) {
+        let id = carta.closest(".card").getAttribute("data-key");
+        carta.closest(".card").remove();
+        fetch(`https://j4bit.glitch.me/noticias/${id}`, {
+          method: "DELETE",
+        });
+        Swal.fire("Noticia borrada!", "", "success");
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <footer>
+      <div class="footer-text">
+        <p>
+          <a href="contactar.html">Contactar</a>
+          <br />
+          <a href="creditos.html">Créditos</a>
+        </p>
+      </div>
+
+      <!-- redes sociales -->
+      <div class="redes-container">
+        <ul>
+          <li>
+            <a href="https://es-es.facebook.com/" class="facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" class="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=es" class="twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/" class="github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://es.linkedin.com/" class="linkedin"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" class="youtube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
